@@ -1,5 +1,4 @@
 services:
-  # Backend Service
   - type: web
     name: backend
     env: python
@@ -18,7 +17,6 @@ services:
     region: oregon
     rootDir: backend
 
-  # Frontend Service
   - type: web
     name: frontend
     env: node
